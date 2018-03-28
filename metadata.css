@@ -1,0 +1,15 @@
+/* 
+* Angela Taglione
+* March 28, 2018
+* MetaData CSS 
+*/
+
+/* The universal selector */
+
+* {
+}
+
+/* Put body attributes here */
+
+body {background-color: #DDA0DD;
+		color: black;}
