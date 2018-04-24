@@ -1,0 +1,27 @@
+/* 
+* Angela Taglione
+* March 28, 2018
+* MetaData CSS 
+*/
+
+body {background-color: #F8E6E0; 
+		color: black;} /* set background color to a light purple color and text to black */
+body {font-family: Arial; font-size: 100%;} /* set fonts for 
+body available to arial, helvetica, sans-serif and font size to 100% */
+
+.right {float: right;} /* float picture to the right */
+
+a:hover, a:focus {color: deeppink; font-size: 150%;} /* make links change color when hovered or tabbed over on */
+
+h1, h2{font-family: cursive; text-decoration: underline;} /* change h1 and h2 font to cursive and text decoration to underline */
+
+header{background-color:  #ff6666; text-align: center;} /* change header background color to a pinkish color and align to center */
+		
+h1 {font-size 100%;}/* set font size to 100%, align text, use font 	
+	Helvetica, make text uppercase, and underline the text overhead */
+
+footer {font-family: "sans serif";} /* change footer font to sans-serif */
+
+footer{clear:both;} /* footer at bottom instead of floating around picture */
+
+
