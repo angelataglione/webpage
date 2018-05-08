@@ -1,0 +1,40 @@
+/* 
+* Angela Taglione
+* March 28, 2018
+* MetaData CSS 
+*/
+
+*{ margin: 0; padding: 0;} /* set margin and padding to 0 */
+
+body{background-color: #dab4ff; padding: 1em; margin: 10px;} /* set background color to a light purple, padding 1em, margin 10px */
+
+.left {height: 200px; width: 300px; float: left; border: 4px dotted purple;
+		margin: 1em;} /* make image with class left have height of 200px, width 300px, float left, solid 4px purple border, and margin of 1em */
+
+.monkey { height: 200px; width: 200px; border: 4px solid white; margin: 10px; clear: both;} /* make images in monkey class have 
+height of 200px, width of 200px, 4px solid white border, margin 10 px, and clear the float from .left class */
+
+header {border-bottom: 3px solid purple; text-align: center;} /* put a 3px solid purple bottom border on the header and text align to center */
+
+main { padding: 1em;
+		margin: 10px } /* set main padding to 1em, and margin to 10px on all sides */
+
+body {padding: 1em;
+		margin: 1em;
+		font-family: calibri;
+		font-size: 20px} /* padding to 1em, margin to 1 em, font to calibri, and font size to 20px */
+		
+h1 {padding: 10px;
+	margin:15px;
+	font-family: optima;} /* set h1 padding to 10px, margin to 15px on top, and font to optima */
+
+h2 {font-family: optima;} /* set font to optima in h1 heading */
+
+footer { border-top: 3px solid purple;
+	padding: 1em;
+	margin: 1em;
+	clear: both;} /* set footer border to 3px solid purple on top, padding to 1em, margin to 1em, and clear floating */
+								
+#conservation {height: 500 px; width: 300px; border: 4px solid purple; margin: 1em; float: right;} /* make image with conservation ID to 
+500px height, 300px width, 4px solid purple border, 1em margin, and float to right */
+
