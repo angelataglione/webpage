@@ -1,0 +1,84 @@
+/* Name: Angela Taglione
+*  Due Date: May 25, 2018
+*  Final Project CSS */
+
+* {margin: 0; padding: 0;} /* set margins and padding to 0 */
+
+body { 
+	width: 90%;
+    margin: 15px auto;
+    border: 5px solid #8c8c8c;} /* set body with 90% width, 15px margin/auto (works best), and 5px solid grayish border */
+
+
+header {border-bottom: 3px solid  #8c8c8c;
+		text-align: center;
+		background-color: #8c8c8c;
+		color: white;} /* make header bottom 3px solid grayish color, make text centered, with gray background color and white text */
+
+.head { font-family: cambria;
+	 padding: 5px;
+	 text-align: center;} /* make all items in head class have cambria font, 5px padding, and centered text */
+
+#sidebarA {
+    width: 22%;
+    float: left;
+    margin: 1%;
+    text-align: center;} /* make sidebarA float left as left column, have 22% width, 1% margin, and centered text */
+
+
+p {padding: 1em;
+	margin: 1em;
+   font-family: cambria;} /* have paragraphs with 1em padding, 1em margin, and cambria font family */
+
+
+main {
+    width: 50%;
+    float: left;
+    border-right: 3px solid #8c8c8c;
+    border-left: 3px solid #8c8c8c;
+    background-color: #b3d9ff;
+    } /* make main have 50% width, float left, have right and left border 3px solid grayish color, and have light blue background color */
+
+#sidebarB {
+    width: 22%;
+    float: right;
+    text-align: center;
+    margin: 1%;} /* have sidebarB (right column)  have a width of 22%, float right, center text, and have margin of 1% */
+
+.left {float: left;
+		margin: 1em;
+		border: 4px solid gray;
+		height: 200px;
+		width: 200px;} /* have all in left class float left, margin of 1em, 4px solid gray border, height of 200px, and width of 200px */
+		
+.right {float: right;
+		margin: 1em;
+		border: 4px dashed gray;
+		height: 200px;
+		width: 200px;} /* have all in right class float right, 1em margin, 4px dashed gray border, height of 200px, and width of 200px*/
+
+#diagram {
+	 border: 4px solid gray;
+	 height: 150px;
+	 width: 250px;} /* have all with diagram ID (picture) have a 4px solid gray border, height of 150px and width of 250px */
+	 
+
+.educational {float: right;} /* have all in educational class float right */
+
+#sources {
+		  margin: 1em;
+    	  font-family: cambria;} /* have heading in sources ID have margin of 1em and cambria font family */
+    	  
+#marie { float: right;
+		height: 258px;
+		width: 400px;
+		margin: 6px;
+		border: 6px solid #b3d9ff;} /* have marie picture float right, height of 258px, width of 400px, margin of 6px, and 6px solid light blue border */
+    
+footer {
+    clear: both;
+    border-top: 3px solid #8c8c8c;
+    padding: 10px;
+    background-color: #8c8c8c;
+    color: white;} /* have the footer clear floats from above, border top have 3px solid gray color, padding of 10px, background color of gray, and text in white */
+a:hover, a:focus {color: darkblue; font-size: 150%;} /* make links change color when hovered or tabbed over on */
